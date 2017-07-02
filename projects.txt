@@ -1,0 +1,58 @@
+{
+   "recent":[
+      {
+         "title":"All Github projects",
+         "content":"various projects uploaded to github",
+         "url":"https://github.com/jaroslaw-weber?tab=repositories"
+      },
+      {
+         "title":"Machine learning from scratch with Rust",
+         "content":"implementing basic neural network from scratch in Rust language",
+         "url":"https://github.com/jaroslaw-weber/rust-ml-from-scratch"
+      },
+      {
+         "title":"Hotdog? Not hotdog?",
+         "content":"finetunning and serving model for hotdog detection with pytorch and flask",
+         "url":"https://github.com/jaroslaw-weber/hotdog-not-hotdog"
+      },
+      {
+         "title":"Machine Learning Research",
+         "content":"responsive version of Arxiv-Sanity, scrapping and server written in Rust, responsive design in Bootstrap and Handlebars",
+         "url":"https://github.com/jaroslaw-weber/machine-learning-research"
+      },
+      {
+         "title":"Learn Korean Tools",
+         "content":"various tools for learning korean, written in Rust - Rocket (WebApi), PostgreSQL, Serde(Json), Handlebars (Templates)",
+         "url":"http://korean.jaroslawweber.com"
+      },
+      {
+         "title":"Healthy Office",
+         "content":"notifications reminding you to move - for people working in offices (written in Rust)",
+         "url":"https://github.com/jaroslaw-weber/healthy-office"
+      },
+      {
+         "title":"This Website :)",
+         "content":"backend written in Rust/Rocket, front-end created with Bootstrap and Handlebars",
+         "url":"https://github.com/jaroslaw-weber/portfolio"
+      }
+   ],
+   "old":[
+
+      {
+         "title":"My first apps",
+         "content":"minigames/apps created with Unity3D/C#",
+         "url":"https://play.google.com/store/apps/developer?id=Jaroslaw+Weber"
+      },
+      {
+         "title":"My high school project",
+         "content":"simple fanpage website with custom database, playing with php and sql",
+         "url":"http://battleforge.nm1.pl/"
+      },
+      {
+         "title":"Learning about functional programming",
+         "content":"proof of concept, created an ui app in functional style with F# and Unity3D",
+         "url":"https://github.com/jaroslaw-weber/word-rocket"
+      }
+
+   ]
+}

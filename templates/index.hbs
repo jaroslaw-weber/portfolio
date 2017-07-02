@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jaroslaw Weber - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+    <div class="prettyfont text-center container">
+        <div class="jumbotron">
+            <h1>Jaroslaw Weber</h1>
+            <h3>Software Engineer</h3>
+        </div>
+        <h1>About me</h1>
+        <p>
+            Software Engineer from Poland, currently working as native mobile app developer using C# and Unity3d.
+            </br>Passionate about programming and technology. Always trying to learn something new.
+            </br>Recently fascinated by Rust language and Neural Networks.
+        </p>
+        <hr>
+        <h1>Skills</h1>
+        <ul>
+            <li>C#/Unity3D - professional experience (2 years)</li>
+            <li>Rust - low level programming, hobby projects</li>
+            <li>F#, Haskel - functional programming, small projects</li>
+            <li>Webdev - webserver in Rust-Rocket/handlebars/bootstrap</li>
+            <li>Machine Learning - small projects with pytorch and scikit-learn</li>
+        </ul>
+        <hr>
+        <h1>Languages</h1>
+        <ul>
+            <li>Polish - native</li>
+            <li>English - fluent</li>
+            <li>Japanese - fluent</li>
+        </ul>
+        <hr>
+        <h1>Professional Experience</h1>
+        <h3>Ninja Egg/Next Ninja/DMM.com Labo</h3>
+        <p>Two years of native mobile game development with Unity3D and C# as front-end engineer. Experience with creating UI,
+            networking, handling masterdata, custom scenario system, asynchronous resources loading, building scripts.</p>
+
+        <hr>
+        <h1>Recent Projects</h1>
+        <div class="container-fluid">
+            {{#each projects.recent as |project| ~}}
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <a href="{{project.url}}">
+                        <h3>{{project.title}}</h3>
+                    </a>
+                    <p>{{project.content}}</p>
+                </div>
+            </div>
+            {{/each~}}
+        </div>
+        <hr>
+        <h1>Old Projects</h1>
+        <h4>not maintained</h4>
+        <div class="container-fluid">
+            {{#each projects.old as |project| ~}}
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <a href="{{project.url}}">
+                        <h3>{{project.title}}</h3>
+                    </a>
+                    <p>{{project.content}}</p>
+                </div>
+            </div>
+            {{/each~}}
+        </div>
+        <br><br>
+        <div class="navbar navbar-default navbar-bottom">
+            <h4>contact: jaroslaw.weber@gmail.com</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>

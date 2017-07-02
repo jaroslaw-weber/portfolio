@@ -1,0 +1,15 @@
+.prettyfont {
+    font-family: 'Bubbler One', sans-serif;
+}
+
+.jumbotron {
+	background-image: url("/img/top.jpg");
+	background-size: cover;
+	min-height: 250px;
+	color: #fff;
+	
+}
+
+hr {
+	margin:50px;
+}
